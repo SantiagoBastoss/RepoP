@@ -1,1 +1,75 @@
-https://run.plnkr.co/preview/cl99b45b800073n6pt46x1t67/
+Link: https://run.plnkr.co/preview/cl99b45b800073n6pt46x1t67/
+
+Código:
+<!doctype html>
+
+<html>
+  <head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body>
+    <h1 align="center">Catálogo de Libros</h1>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <img src="https://th.bing.com/th/id/OIP.uSdcSsOaonqMQFZViklNnQHaDt?pid=ImgDet&rs=1" width="1200" height="300">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-3 bg-secondary p-2 text-dark bg-opacity-50">
+          <p></p>
+          <p> Aquí podrás encontrar todos los libros disponibles en el catálogo, que se pueden comprar</p>
+
+          <p> Para más información, digita tu correo a continuación:</p>
+
+          <div class="input-group mb-4">
+            <input type="text" class="form-control" placeholder="Ejemplo: juancastro43@gmail.com" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Enviar</button>
+          </div>
+
+          <p></p>
+          <p> Si prefieres leer los libros en línea, a continuación hay un link de una biblioteca pública con recursos electrónicos gratuitos:</p>
+
+          <a href="https://biblioteca.uniandes.edu.co/es/biblioteca-publica/recursos-electronicos">Biblioteca Pública</a>
+        </div>
+
+        <div class="col-8">
+          <div class="row bg-secondary p-2 text-dark bg-opacity-25">
+            <div class="col">
+              <p> De animles a dioses</p>
+              <img src="https://2.bp.blogspot.com/-np_cHjfzkzA/VyJUeWLUiqI/AAAAAAAARg0/ov2buTW4Ku8NxaHCLsAVu3-fAY6NIPhxACLcB/s1600/critica-libro-de-animales-a-dioses-yuval-noah-harari-1.jpg" width="100"> 
+            </div>
+            <div class="col">
+              <p> El gen egoísta</p>
+              <img src="https://th.bing.com/th/id/R.d194254f9b049053e9a69cb23af51064?rik=2t5WWgZDlwyohA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-oYfSy6utX5g%2fUPqMiNhTvJI%2fAAAAAAAAAAY%2flxozDUntDf4%2fs1600%2f3676%2bCover.jpg&ehk=syKDAb0t85UnjBOgXdaiLb1ih168QVYkD2Es3dslewY%3d&risl=&pid=ImgRaw&r=0" width="100"> 
+            </div>
+            <div class="col">
+              <p> IT</p>
+              <img src="https://th.bing.com/th/id/OIP.SL8DnAXqb2634xNRi-R8tAHaLQ?pid=ImgDet&rs=1" width="100"> 
+            </div>
+          </div>
+
+          <div class="row bg-secondary p-2 text-dark bg-opacity-25">
+            <div class="col">
+              <p> El Principito</p>
+              <img src="https://th.bing.com/th/id/R.bcac1ae0cb7a99f3aff2720eca16e872?rik=yQKVG44HVakzYA&riu=http%3a%2f%2f4.bp.blogspot.com%2f_KMGwuS1ghXA%2fTFSrN_yuirI%2fAAAAAAAAAsA%2f4G1YasPXoww%2fw1200-h630-p-k-no-nu%2fEl%2bPrincipito.jpg&ehk=4AWpY5Dj%2b4Zwb6BbjmpEJOevgExOxx5IkrAA7A4uBD4%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" width="100"> 
+            </div>
+            <div class="col">
+              <p> Hamlet</p>
+              <img src="https://lh5.googleusercontent.com/proxy/l5c93IaBVEVJeJW6XmlcgvB5zlZcDCK1XzV5fE7NV5rVfH9aP0kYSLUnViHpNkTpWdXjcNfKLNmRimBq2--iz-IrrkaCNyUe3EGTztvdI4bYxdma=w1200-h630-p-k-no-nu" width="100"> 
+            </div>
+            <div class="col">
+              <p> La Vorágine</p>
+              <img src="https://http2.mlstatic.com/la-voragine-jose-eutacio-rivera-D_NQ_NP_2805-MLM3585794188_122012-F.jpg" width="100"> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
